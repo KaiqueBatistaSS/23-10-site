@@ -89,3 +89,27 @@ footer{
     color: white;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa {
+         width:auto; }
+          h1 {
+    text-align: center;
+    }
+  nav{
+    position: static;
+    }
+  .produtos{
+        width:auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .produtos li{
+        
+        width: 100%;
+        margin: 10px 0 ;
+        box-sizing: border-box
+    }
+
+    }
+   
+   
